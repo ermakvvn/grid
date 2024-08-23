@@ -1,0 +1,8 @@
+.container6 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+.item6 {
+    background-color: rgb(40, 181, 141);
+}

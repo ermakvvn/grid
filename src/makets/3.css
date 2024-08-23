@@ -1,0 +1,9 @@
+.container3 {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 50vh;
+}
+.header3,
+.footer3 {
+    background-color: rgb(116, 116, 108);
+}

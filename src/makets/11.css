@@ -1,0 +1,22 @@
+.container11 {
+    display: grid;
+    grid-template-areas:
+        'header'
+        'main'
+        'footer';
+    grid-template-rows: auto 1fr auto;
+    min-height: 70vh;
+}
+.header11 {
+    grid-area: header;
+}
+.main11 {
+    grid-area: main;
+}
+.footer11 {
+    grid-area: footer;
+}
+.header11,
+.footer11 {
+    background-color: rgb(102, 140, 173);
+}

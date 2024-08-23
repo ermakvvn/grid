@@ -1,0 +1,22 @@
+.container13 {
+    display: grid;
+    grid-template-areas:
+        'header header'
+        'sidebar main'
+        'footer footer';
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+    min-height: 100vh;
+}
+.header13 {
+    grid-area: header;
+}
+.sidebar13 {
+    grid-area: sidebar;
+}
+.main13 {
+    grid-area: main;
+}
+.footer13 {
+    grid-area: footer;
+}

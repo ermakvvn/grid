@@ -1,0 +1,29 @@
+.container12 {
+    display: grid;
+    grid-template-areas:
+        'header header header'
+        'sidebar-left main sidebar-right'
+        'footer footer footer';
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 1rem;
+    min-height: 80vh;
+}
+.header12 {
+    grid-area: header;
+    background-color: rgb(235, 125, 126);
+}
+.sidebar-left12 {
+    grid-area: sidebar-left;
+    background-color: rgb(105, 87, 155);
+}
+.main12 {
+    grid-area: main;
+}
+.sidebar-right12 {
+    grid-area: sidebar-right;
+    background-color: rgb(181, 224, 88);
+}
+.footer12 {
+    grid-area: footer;
+    background-color: rgb(73, 83, 52);
+}

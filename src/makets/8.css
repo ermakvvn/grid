@@ -1,0 +1,15 @@
+.container8 {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    text-align: center;
+}
+.main8 {
+    display: grid;
+    align-items: center;
+    background-color: rgb(245, 176, 147);
+}
+.header8,
+.footer8 {
+    background-color: rgb(55, 78, 99);
+}

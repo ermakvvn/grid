@@ -1,0 +1,15 @@
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 1rem;
+}
+.header2,
+.footer2 {
+    grid-column: 1 / 4;
+    background-color: rgb(116, 116, 108);
+}
+
+.sidebar-left2,
+.sidebar-right2 {
+    background-color: aqua;
+}

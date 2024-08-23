@@ -1,0 +1,52 @@
+/* src/index.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.headerMain {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.contentMain {
+    display: flex;
+    flex: 1;
+}
+
+.sidebarMain {
+    min-width: 200px;
+    max-width: 250px;
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+
+.sidebarMain ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebarMain li {
+    margin-bottom: 0.5rem;
+}
+
+.sidebarMain a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebarMain a:hover {
+    color: #007bff;
+}
+
+.code {
+    font-size: large;
+}

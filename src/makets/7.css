@@ -1,0 +1,11 @@
+.container7 {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+}
+.item7 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

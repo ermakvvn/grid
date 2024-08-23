@@ -1,0 +1,12 @@
+.container5 {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 50vh;
+    background-image: url('img/back1.jpg');
+    background-size: cover;
+    color: white;
+}
+.footer5,
+.header5 {
+    background-color: rgb(135, 117, 95);
+}
